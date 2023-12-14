@@ -1,0 +1,16 @@
+Abstract Factory Pattern là một design pattern thuộc nhóm khởi tạo, chúng giải quyết vấn đề tạo ra một hệ thống liên quan
+mà không cần chỉ định lớp cụ thể tạo ra chúng.
+
+N định nghĩa 1 interface để tạo ra tất cả những obj riêng biệt từ những thằng factory của chúng.
+Mỗi factory sẽ tương ứng với một loại obj nhất định
+
+Có thể gặp  chúng  một số thư viêện của Java Core như:
+
+javax.xml.parsers.DocumentBuilderFactory#newInstance()
+
+javax.xml.transform.TransformerFactory#newInstance()
+
+javax.xml.xpath.XPathFactory#newInstance()
+
+Cách nhâ biết:
+Nó thường trả v một obj factory, và s dụng obj này để tạo ra các obj con cụ thể

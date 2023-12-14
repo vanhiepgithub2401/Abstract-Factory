@@ -1,0 +1,17 @@
+ABSTRACT FACTORY is a CREATIONAL desgin pattern, which solves the problem of creating entire product families without
+specifying their concrete classes.
+
+it defines an interface for creating all distinct products but leaves the actual product creation to concrete facroty
+classes. Each factory type corresponds to a certain product variety.
+
+Some examples from core Java lib:
+
+javax.xml.parsers.DocumentBuilderFactory#newInstance()
+
+javax.xml.transform.TransformerFactory#newInstance()
+
+javax.xml.xpath.XPathFactory#newInstance()
+
+
+Identification: The pattern is easy to recognize by methods, which return a factory object. Then, the factory is used for
+creating specific sub-components
